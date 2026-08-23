@@ -139,7 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment3_Question4_Gradebook.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Gradebook.cpp" />
   </ItemGroup>
   <ItemGroup>

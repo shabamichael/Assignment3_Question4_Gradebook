@@ -1,0 +1,10 @@
+Alice 75 2
+Sizwe 60 1
+Charlie 85 3
+David 75 2
+Eve 90 3
+Thandi 50 1
+Grace 80 2
+Mpilo 85 3
+Diana 45 1
+Lesedi 90 3
