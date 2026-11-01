@@ -5,20 +5,29 @@
 #include "gradebook.h"
 using namespace std;
 using namespace AcademicRecords;
+
+
+
 int main()
 {
 	int benchmarkScore;
 	int benchmarkGradeLevel;
+
+
 	// Prompt the user for the
 	//benchmark score and grade level
 	cout << "Enter benchmark score: ";
 	cin >> benchmarkScore;
 	cout << "Enter benchmark grade level: ";
 	cin >> benchmarkGradeLevel;
+
+
 	// Use the overloaded constructor to
 	//initialise benchmark_student
 	// Name is set to an empty string
 	Gradebook benchmark_student("", benchmarkScore, benchmarkGradeLevel);
+
+
 	// Open the file containing
 	// the student records
 	ifstream inputFile("Student.txt");
@@ -33,6 +42,8 @@ int main()
 	cout << "-----------------------------------------------------\n";
 	cout << "Name\t\t\tScore\t\t\tGrade" << endl;
 	cout << "=====================================================\n";
+
+
 	// Read student records from the file using >>
 	while (inputFile >> student)
 	{

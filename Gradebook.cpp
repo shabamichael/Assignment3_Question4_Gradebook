@@ -3,7 +3,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-namespace AcademicRecords {
+
+namespace AcademicRecords 
+{
 	// Default constructor that
 	//initializes members to default values
 	Gradebook::Gradebook()
